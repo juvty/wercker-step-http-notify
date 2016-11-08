@@ -13,4 +13,5 @@ curl -d "result=$WERCKER_RESULT" \
      -d "git_branch=$WERCKER_GIT_BRANCH" \
      -d "started_by=$WERCKER_STARTED_BY" \
      -d "build_url=$WERCKER_BUILD_URL" \
+     -d "commit=$WERCKER_GIT_COMMIT" \
      $WERCKER_HTTP_NOTIFY_URL
